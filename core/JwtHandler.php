@@ -5,7 +5,7 @@ use Firebase\JWT\Key;
 
 class JwtHandler
 {
-    private $secretKey = "your_secret_key";
+    private static $secretKey = "20fad51902f91e7fd3039e016a6556b5";
 
     public static function encode($payload)
     {
